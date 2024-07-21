@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    height:70px;
+    background-color: rgb(214, 214, 214);
+}
+
+nav h2 {
+    font-size: 35px;
+}
+
+nav h2:nth-child(2) {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.part1 {
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding-top: 150px;
+    transition:  all .5s ease-in-out;
+    border-left: 2px solid ;
+}
+
+.part2 {
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding-top: 150px;
+    transition:  all .5s ease-in-out;
+    border-left: 2px solid ;
+
+}
+
+.part3 {
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding-top: 150px;
+    transition:  all .5s ease-in-out;
+    border-left: 2px solid ;
+
+}
+
+.part4 {
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding-top: 150px;
+    transition:  all .5s ease-in-out;
+    border-left: 2px solid ;
+
+}
+
+#im h2{
+    padding-left: 20px;
+    font-size: 70px;
+    font-family: "Girassol", serif;
+    line-height:.7;
+    font-weight: 100;
+    width: 80%;
+}
+#im p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.part1:hover{
+    background:url("https://wallpapercave.com/wp/wp10405664.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.part2:hover{
+    background:url("https://w0.peakpx.com/wallpaper/172/295/HD-wallpaper-surreal-girl-abstraction-art-modern-art.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.part3:hover{
+    background:url("https://e0.pxfuel.com/wallpapers/723/353/desktop-wallpaper-art-space-graphics-creative-arts-earth-motorola-moto-g8-power-lite.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.part4:hover{
+    background:url("https://asset.gecdesigns.com/img/wallpapers/abstract-beauty-digital-illustration-4k-wallpaper-for-mobile-sr10012401-1704885645449-cover.webp");
+    background-size: cover;
+    background-position: center;
+}
+#im h3{
+    font-size: 150px;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Jersey 25", sans-serif;
+}
